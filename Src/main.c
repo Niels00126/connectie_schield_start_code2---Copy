@@ -154,7 +154,7 @@ int main(void)
   
  
  HAL_GPIO_WritePin(GPIOB,SPI5_CS_Pin, GPIO_PIN_SET);
- HAL_Delay(50);
+ HAL_Delay(100);
 
  //HAL_GPIO_WritePin(GPIOB,SPI5_CS_Pin, GPIO_PIN_RESET);
  
