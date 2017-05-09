@@ -1,0 +1,372 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.4.12462/W32 for ARM                09/May/2017  10:56:00
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\Exe\connectie_schield_start_code2.out
+#    Map file     =  
+#        C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\List\connectie_schield_start_code2.map
+#    Command line =  
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\bmi160.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\bmi160_support.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\main.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\startup_stm32f411xe.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_cortex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_dma.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_dma_ex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_flash.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_flash_ex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_flash_ramfunc.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_gpio.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_msp.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_pwr.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_pwr_ex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_rcc.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_rcc_ex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_sd.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_spi.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_tim.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_hal_tim_ex.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_it.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\stm32f4xx_ll_sdmmc.o"
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM\connectie_schield_start_code2\Obj\system_stm32f4xx.o"
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\Exe\connectie_schield_start_code2.out"
+#        --map
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        -
+#        Copy\EWARM\connectie_schield_start_code2\List\connectie_schield_start_code2.map"
+#        --config
+#        "C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2
+#        - Copy\EWARM/stm32f411xe_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x198
+  .intvec            ro code  0x08000000   0x198  startup_stm32f411xe.o [1]
+                            - 0x08000198   0x198
+
+"P1":                                     0x14b4
+  .text              ro code  0x08000198   0x57e  stm32f4xx_hal_spi.o [1]
+  .text              ro code  0x08000718   0x210  stm32f4xx_hal_msp.o [1]
+  .text              ro code  0x08000928     0xc  stm32f4xx_hal.o [1]
+  .text              ro code  0x08000934    0xc6  stm32f4xx_hal_cortex.o [1]
+  .text              ro code  0x080009fc   0x1b0  stm32f4xx_hal_gpio.o [1]
+  .text              ro code  0x08000bac   0x340  main.o [1]
+  .text              ro code  0x08000eec    0x18  stm32f4xx_hal.o [1]
+  .text              ro code  0x08000f04    0x34  stm32f4xx_hal.o [1]
+  .text              ro code  0x08000f38   0x298  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x080011d0   0x1b0  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x08001380    0x28  stm32f4xx_hal.o [1]
+  .text              ro code  0x080013a8    0x50  system_stm32f4xx.o [1]
+  .text              ro code  0x080013f8    0x40  zero_init3.o [5]
+  .text              ro code  0x08001438    0x2c  copy_init3.o [5]
+  .text              ro code  0x08001464    0x28  data_init.o [5]
+  .text              ro code  0x0800148c    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x080014b0    0x24  - Linker created -
+  .text              ro code  0x080014d4    0x1e  stm32f4xx_it.o [1]
+  .text              ro code  0x080014f4    0x10  stm32f4xx_hal.o [1]
+  .text              ro code  0x08001504    0x1a  cmain.o [5]
+  .text              ro code  0x0800151e     0x4  low_level_init.o [3]
+  .text              ro code  0x08001522     0x4  exit.o [3]
+  .text              ro code  0x08001528     0xa  cexit.o [5]
+  .text              ro code  0x08001534    0x14  exit.o [6]
+  .text              ro code  0x08001548    0x10  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001558     0xc  cstartup_M.o [5]
+  .text              ro code  0x08001564     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001568     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800156c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001570     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001574     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001578     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800157c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001580     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001584     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001588     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800158c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001590     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001594     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001598     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800159c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015a0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015a4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015a8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015ac     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015b0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015b4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015b8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015bc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015c0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015c4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015c8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015cc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015d0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015d4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015d8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015dc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015e0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015e4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015e8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015ec     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015f0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015f4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015f8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x080015fc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001600     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001604     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001608     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800160c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001610     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001614     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001618     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800161c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001620     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001624     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001628     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800162c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001630     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001634     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001638     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x0800163c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001640     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001644     0x4  startup_stm32f411xe.o [1]
+  Initializer bytes  const    0x08001648     0x4  <for P2-1>
+  .rodata            const    0x0800164c     0x0  zero_init3.o [5]
+  .rodata            const    0x0800164c     0x0  copy_init3.o [5]
+                            - 0x0800164c  0x14b4
+
+"P2", part 1 of 3:                           0x4
+  P2-1                        0x20000000     0x4  <Init block>
+    .data            inited   0x20000000     0x4  system_stm32f4xx.o [1]
+                            - 0x20000004     0x4
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000008   0x400  <Block>
+    CSTACK           uninit   0x20000008   0x400  <Block tail>
+                            - 0x20000408   0x400
+
+"P2", part 3 of 3:                          0x5c
+  .bss               zero     0x20000408    0x58  main.o [1]
+  .bss               zero     0x20000460     0x4  stm32f4xx_hal.o [1]
+                            - 0x20000464    0x5c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5c:
+          0x20000408  0x5c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x08001648   0x4
+    1 destination range, total size 0x4:
+          0x20000000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2 - Copy\EWARM\connectie_schield_start_code2\Obj: [1]
+    main.o                      832                88
+    startup_stm32f411xe.o       652
+    stm32f4xx_hal.o             144                 4
+    stm32f4xx_hal_cortex.o      198
+    stm32f4xx_hal_gpio.o        432
+    stm32f4xx_hal_msp.o         528
+    stm32f4xx_hal_rcc.o       1 096
+    stm32f4xx_hal_spi.o       1 406
+    stm32f4xx_it.o               30
+    system_stm32f4xx.o           80        4        4
+    -------------------------------------------------
+    Total:                    5 398        4       96
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [4]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [5]
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      196
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         10        2
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:              5 666       42    1 120
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x080014b0          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080014d4          --   Gb  - Linker created -
+?main                   0x08001505         Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x0800131c   0x10  Data  Gb  stm32f4xx_hal_rcc.o [1]
+BusFault_Handler        0x080014db    0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000408          --   Gb  - Linker created -
+DebugMon_Handler        0x080014e1    0x2  Code  Gb  stm32f4xx_it.o [1]
+HAL_Delay               0x08000eed   0x18  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_Init           0x080009fd  0x186  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08000b83    0x8  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x08000929    0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick             0x080014f5   0x10  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08000f05   0x30  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x08001381   0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x08000719   0x60  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_SetPriority    0x08000969   0x3a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0800094f   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x080011d1  0x12c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x0800130b    0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800132d   0x54  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000f39  0x298  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init            0x08000199   0x76  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08000779  0x122  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SPI_Receive         0x08000343  0x11a  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x0800021b  0x128  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x0800045d  0x18e  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x080009cb   0x14  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x080009f9    0x2  Code  Wk  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x080009a3   0x28  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x080009f5    0x4  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HardFault_Handler       0x080014d7    0x2  Code  Gb  stm32f4xx_it.o [1]
+MX_GPIO_Init            0x08000db7   0xf4  Code  Lc  main.o [1]
+MemManage_Handler       0x080014d9    0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x080014d5    0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_SetPriority        0x08000935   0x1a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+PendSV_Handler          0x080014e3    0x2  Code  Gb  stm32f4xx_it.o [1]
+Region$$Table$$Base     0x080014b0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080014d4          --   Gb  - Linker created -
+SPI_CheckFlag_BSY       0x080006f7   0x20  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x0800066d   0x8a  Code  Lc  stm32f4xx_hal_spi.o [1]
+SVC_Handler             0x080014df    0x2  Code  Gb  stm32f4xx_it.o [1]
+SysTick_Handler         0x080014e5    0xe  Code  Gb  stm32f4xx_it.o [1]
+SystemClock_Config      0x08000d15   0xa2  Code  Gb  main.o [1]
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x080013a9   0x3a  Code  Gb  system_stm32f4xx.o [1]
+UsageFault_Handler      0x080014dd    0x2  Code  Gb  stm32f4xx_it.o [1]
+__cmain                 0x08001505         Code  Gb  cmain.o [5]
+__exit                  0x08001535   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x08001439   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08001465   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x0800148d         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08001559         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x080013f9   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800151f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f411xe.o [1]
+_call_main              0x08001511         Code  Gb  cmain.o [5]
+_exit                   0x08001529         Code  Gb  cexit.o [5]
+_main                   0x0800151b         Code  Gb  cmain.o [5]
+bmi160_spi_bus_read     0x08000bad   0x50  Code  Gb  main.o [1]
+bmi160_spi_bus_write    0x08000c07   0x54  Code  Gb  main.o [1]
+exit                    0x08001523    0x4  Code  Gb  exit.o [3]
+hspi5                   0x20000408   0x58  Data  Gb  main.o [1]
+main                    0x08000c6b   0xa0  Code  Gb  main.o [1]
+uwTick                  0x20000460    0x4  Data  Gb  stm32f4xx_hal.o [1]
+
+
+[1] = C:\Users\11401165\OneDrive\Documenten\StageVigil\connectie_schield_start_code2 - Copy\EWARM\connectie_schield_start_code2\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  5 666 bytes of readonly  code memory
+     42 bytes of readonly  data memory
+  1 120 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
